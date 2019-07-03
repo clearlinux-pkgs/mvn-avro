@@ -4,14 +4,14 @@
 #
 Name     : mvn-avro
 Version  : 1.8.2
-Release  : 2
+Release  : 3
 URL      : https://github.com/apache/avro/archive/release-1.8.2.tar.gz
 Source0  : https://github.com/apache/avro/archive/release-1.8.2.tar.gz
 Source1  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
 Source2  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
 Summary  : C library for parsing Avro data
 Group    : Development/Tools
-License  : Apache-2.0 MIT
+License  : Apache-2.0 BSD-3-Clause BSL-1.0 MIT
 Requires: mvn-avro-data = %{version}-%{release}
 BuildRequires : buildreq-cmake
 BuildRequires : buildreq-cpan
