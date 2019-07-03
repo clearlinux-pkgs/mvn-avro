@@ -4,17 +4,24 @@
 #
 Name     : mvn-avro
 Version  : 1.8.2
-Release  : 1
-URL      : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
-Source0  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
-Source1  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
-Summary  : No detailed summary available
+Release  : 2
+URL      : https://github.com/apache/avro/archive/release-1.8.2.tar.gz
+Source0  : https://github.com/apache/avro/archive/release-1.8.2.tar.gz
+Source1  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
+Source2  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
+Summary  : C library for parsing Avro data
 Group    : Development/Tools
-License  : Apache-2.0
+License  : Apache-2.0 MIT
 Requires: mvn-avro-data = %{version}-%{release}
+BuildRequires : buildreq-cmake
+BuildRequires : buildreq-cpan
+BuildRequires : buildreq-distutils3
 
 %description
-No detailed description available
+NAME
+Avro - official Perl API for the Avro serialization and RPC framework
+SYNOPSIS
+use Avro;
 
 %package data
 Summary: data components for the mvn-avro package.
@@ -30,10 +37,10 @@ data components for the mvn-avro package.
 
 %install
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
 
 
 %files
