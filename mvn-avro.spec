@@ -4,13 +4,19 @@
 #
 Name     : mvn-avro
 Version  : 1.8.2
-Release  : 4
+Release  : 5
 URL      : https://github.com/apache/avro/archive/release-1.8.2.tar.gz
 Source0  : https://github.com/apache/avro/archive/release-1.8.2.tar.gz
-Source1  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.jar
-Source2  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.pom
-Source3  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
-Source4  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
+Source1  : https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.jar
+Source2  : https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.pom
+Source3  : https://repo1.maven.org/maven2/org/apache/avro/avro-parent/1.7.4/avro-parent-1.7.4.pom
+Source4  : https://repo1.maven.org/maven2/org/apache/avro/avro-parent/1.8.2/avro-parent-1.8.2.pom
+Source5  : https://repo1.maven.org/maven2/org/apache/avro/avro-toplevel/1.7.4/avro-toplevel-1.7.4.pom
+Source6  : https://repo1.maven.org/maven2/org/apache/avro/avro-toplevel/1.8.2/avro-toplevel-1.8.2.pom
+Source7  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.jar
+Source8  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.pom
+Source9  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
+Source10  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
 Summary  : C library for parsing Avro data
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause BSL-1.0 MIT
@@ -38,17 +44,35 @@ data components for the mvn-avro package.
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.4
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.4
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.8.2
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.8.2
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.4
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.4
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.8.2
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.8.2
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
 
 
 %files
@@ -56,6 +80,12 @@ cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.
 
 %files data
 %defattr(-,root,root,-)
+/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.jar
+/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.pom
+/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.4/avro-parent-1.7.4.pom
+/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.8.2/avro-parent-1.8.2.pom
+/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.4/avro-toplevel-1.7.4.pom
+/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.8.2/avro-toplevel-1.8.2.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.jar
 /usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
