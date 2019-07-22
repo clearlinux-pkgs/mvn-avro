@@ -9,3 +9,6 @@ e06051a5fff6584b0e2b38e3bc72dbd25a13632e/avro-toplevel-1.7.4.pom
 4819e550101b113a8f1af08bd114c68402cbbdd7/avro-parent-1.8.2.pom
 71b3eaca80986a2e5048e5325c86c82a757f1a57/avro-mapred-1.8.2.pom
 8d31caedebfc3f8801981b0f5b501a673eca1bb6/avro-mapred-1.8.2.jar
+f4b0a97be342337431dada7b3c8d8cd62993684c/avro-ipc-1.8.2.jar
+2cee57befdb16929eb134f38897a518c9a2288c6/avro-ipc-1.8.2.pom
+8d31caedebfc3f8801981b0f5b501a673eca1bb6/avro-mapred-1.8.2-hadoop2.jar
