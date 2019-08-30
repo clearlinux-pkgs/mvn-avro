@@ -4,34 +4,45 @@
 #
 Name     : mvn-avro
 Version  : 1.8.2
-Release  : 7
+Release  : 8
 URL      : https://github.com/apache/avro/archive/release-1.8.2.tar.gz
 Source0  : https://github.com/apache/avro/archive/release-1.8.2.tar.gz
-Source1  : https://repo.maven.apache.org/maven2/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.jar
-Source2  : https://repo.maven.apache.org/maven2/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.pom
-Source3  : https://repo.maven.apache.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-hadoop2.jar
-Source4  : https://repo1.maven.org/maven2/org/apache/avro/avro-compiler/1.7.7/avro-compiler-1.7.7.jar
-Source5  : https://repo1.maven.org/maven2/org/apache/avro/avro-compiler/1.7.7/avro-compiler-1.7.7.pom
-Source6  : https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.jar
-Source7  : https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.pom
-Source8  : https://repo1.maven.org/maven2/org/apache/avro/avro-maven-plugin/1.7.7/avro-maven-plugin-1.7.7.jar
-Source9  : https://repo1.maven.org/maven2/org/apache/avro/avro-maven-plugin/1.7.7/avro-maven-plugin-1.7.7.pom
-Source10  : https://repo1.maven.org/maven2/org/apache/avro/avro-parent/1.7.4/avro-parent-1.7.4.pom
-Source11  : https://repo1.maven.org/maven2/org/apache/avro/avro-parent/1.7.7/avro-parent-1.7.7.pom
-Source12  : https://repo1.maven.org/maven2/org/apache/avro/avro-parent/1.8.2/avro-parent-1.8.2.pom
-Source13  : https://repo1.maven.org/maven2/org/apache/avro/avro-toplevel/1.7.4/avro-toplevel-1.7.4.pom
-Source14  : https://repo1.maven.org/maven2/org/apache/avro/avro-toplevel/1.7.7/avro-toplevel-1.7.7.pom
-Source15  : https://repo1.maven.org/maven2/org/apache/avro/avro-toplevel/1.8.2/avro-toplevel-1.8.2.pom
-Source16  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.jar
-Source17  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.pom
-Source18  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar
-Source19  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.pom
-Source20  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
-Source21  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
+Source1  : https://repo.maven.apache.org/maven2/org/apache/avro/avro-ipc/1.7.1/avro-ipc-1.7.1.jar
+Source2  : https://repo.maven.apache.org/maven2/org/apache/avro/avro-ipc/1.7.1/avro-ipc-1.7.1.pom
+Source3  : https://repo.maven.apache.org/maven2/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.jar
+Source4  : https://repo.maven.apache.org/maven2/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.pom
+Source5  : https://repo.maven.apache.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-hadoop2.jar
+Source6  : https://repo1.maven.org/maven2/org/apache/avro/avro-compiler/1.7.7/avro-compiler-1.7.7.jar
+Source7  : https://repo1.maven.org/maven2/org/apache/avro/avro-compiler/1.7.7/avro-compiler-1.7.7.pom
+Source8  : https://repo1.maven.org/maven2/org/apache/avro/avro-compiler/1.8.2/avro-compiler-1.8.2.jar
+Source9  : https://repo1.maven.org/maven2/org/apache/avro/avro-compiler/1.8.2/avro-compiler-1.8.2.pom
+Source10  : https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.1/avro-mapred-1.7.1.jar
+Source11  : https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.1/avro-mapred-1.7.1.pom
+Source12  : https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.jar
+Source13  : https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.pom
+Source14  : https://repo1.maven.org/maven2/org/apache/avro/avro-maven-plugin/1.7.7/avro-maven-plugin-1.7.7.jar
+Source15  : https://repo1.maven.org/maven2/org/apache/avro/avro-maven-plugin/1.7.7/avro-maven-plugin-1.7.7.pom
+Source16  : https://repo1.maven.org/maven2/org/apache/avro/avro-maven-plugin/1.8.2/avro-maven-plugin-1.8.2.jar
+Source17  : https://repo1.maven.org/maven2/org/apache/avro/avro-maven-plugin/1.8.2/avro-maven-plugin-1.8.2.pom
+Source18  : https://repo1.maven.org/maven2/org/apache/avro/avro-parent/1.7.1/avro-parent-1.7.1.pom
+Source19  : https://repo1.maven.org/maven2/org/apache/avro/avro-parent/1.7.4/avro-parent-1.7.4.pom
+Source20  : https://repo1.maven.org/maven2/org/apache/avro/avro-parent/1.7.7/avro-parent-1.7.7.pom
+Source21  : https://repo1.maven.org/maven2/org/apache/avro/avro-parent/1.8.2/avro-parent-1.8.2.pom
+Source22  : https://repo1.maven.org/maven2/org/apache/avro/avro-toplevel/1.7.1/avro-toplevel-1.7.1.pom
+Source23  : https://repo1.maven.org/maven2/org/apache/avro/avro-toplevel/1.7.4/avro-toplevel-1.7.4.pom
+Source24  : https://repo1.maven.org/maven2/org/apache/avro/avro-toplevel/1.7.7/avro-toplevel-1.7.7.pom
+Source25  : https://repo1.maven.org/maven2/org/apache/avro/avro-toplevel/1.8.2/avro-toplevel-1.8.2.pom
+Source26  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.jar
+Source27  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.pom
+Source28  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar
+Source29  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.pom
+Source30  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
+Source31  : https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
 Summary  : C library for parsing Avro data
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause BSL-1.0 MIT
 Requires: mvn-avro-data = %{version}-%{release}
+Requires: mvn-avro-license = %{version}-%{release}
 BuildRequires : apache-ant
 BuildRequires : buildreq-cmake
 BuildRequires : buildreq-cpan
@@ -52,73 +63,133 @@ Group: Data
 data components for the mvn-avro package.
 
 
+%package license
+Summary: license components for the mvn-avro package.
+Group: Default
+
+%description license
+license components for the mvn-avro package.
+
+
 %prep
+%setup -q -n avro-release-1.8.2
 
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.8.2
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.jar
+mkdir -p %{buildroot}/usr/share/package-licenses/mvn-avro
+cp doc/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/doc_LICENSE
+cp lang/c++/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_c++_LICENSE
+cp lang/c/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_c_LICENSE
+cp lang/csharp/NOTICE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_csharp_NOTICE
+cp lang/java/avro/src/main/resources/META-INF/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_java_avro_src_main_resources_META-INF_LICENSE
+cp lang/java/guava/src/main/resources/META-INF/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_java_guava_src_main_resources_META-INF_LICENSE
+cp lang/java/tools/src/main/javadoc/META-INF/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_java_tools_src_main_javadoc_META-INF_LICENSE
+cp lang/java/tools/src/main/javadoc/META-INF/NOTICE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_java_tools_src_main_javadoc_META-INF_NOTICE
+cp lang/java/tools/src/main/resources/META-INF/LICENSE.txt %{buildroot}/usr/share/package-licenses/mvn-avro/lang_java_tools_src_main_resources_META-INF_LICENSE.txt
+cp lang/java/tools/src/test/resources/META-INF/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_java_tools_src_test_resources_META-INF_LICENSE
+cp lang/java/tools/src/test/resources/META-INF/NOTICE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_java_tools_src_test_resources_META-INF_NOTICE
+cp lang/js/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_js_LICENSE
+cp lang/js/NOTICE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_js_NOTICE
+cp lang/perl/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_perl_LICENSE
+cp lang/php/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_php_LICENSE
+cp lang/py/lib/pyAntTasks-1.3-LICENSE.txt %{buildroot}/usr/share/package-licenses/mvn-avro/lang_py_lib_pyAntTasks-1.3-LICENSE.txt
+cp lang/py/lib/simplejson/LICENSE.txt %{buildroot}/usr/share/package-licenses/mvn-avro/lang_py_lib_simplejson_LICENSE.txt
+cp lang/py/src/avro/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_py_src_avro_LICENSE
+cp lang/py3/avro/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_py3_avro_LICENSE
+cp lang/ruby/LICENSE %{buildroot}/usr/share/package-licenses/mvn-avro/lang_ruby_LICENSE
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.7.1
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.7.1/avro-ipc-1.7.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.7.1
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.7.1/avro-ipc-1.7.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.8.2
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.pom
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.8.2
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-hadoop2.jar
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-hadoop2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.7.7
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.7.7/avro-compiler-1.7.7.jar
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.7.7/avro-compiler-1.7.7.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.7.7
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.7.7/avro-compiler-1.7.7.pom
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.7.7/avro-compiler-1.7.7.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.8.2
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.8.2/avro-compiler-1.8.2.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.8.2
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.8.2/avro-compiler-1.8.2.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.7.1
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.7.1/avro-mapred-1.7.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.7.1
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.7.1/avro-mapred-1.7.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.jar
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.pom
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.7.7
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.7.7/avro-maven-plugin-1.7.7.jar
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.7.7/avro-maven-plugin-1.7.7.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.7.7
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.7.7/avro-maven-plugin-1.7.7.pom
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.7.7/avro-maven-plugin-1.7.7.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.8.2
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.8.2/avro-maven-plugin-1.8.2.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.8.2
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.8.2/avro-maven-plugin-1.8.2.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.1
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.1/avro-parent-1.7.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.4
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.4/avro-parent-1.7.4.pom
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.4/avro-parent-1.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.7
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.7/avro-parent-1.7.7.pom
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.7/avro-parent-1.7.7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.8.2
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.8.2/avro-parent-1.8.2.pom
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.8.2/avro-parent-1.8.2.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.1
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.1/avro-toplevel-1.7.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.4
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.4/avro-toplevel-1.7.4.pom
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.4/avro-toplevel-1.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.7
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.7/avro-toplevel-1.7.7.pom
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.7/avro-toplevel-1.7.7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.8.2
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.8.2/avro-toplevel-1.8.2.pom
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.8.2/avro-toplevel-1.8.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.jar
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.pom
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.4/avro-1.7.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.7
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.jar
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.7
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.pom
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
 
 
 %files
@@ -128,16 +199,26 @@ cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.7.7/avro-compiler-1.7.7.jar
 /usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.7.7/avro-compiler-1.7.7.pom
+/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.8.2/avro-compiler-1.8.2.jar
+/usr/share/java/.m2/repository/org/apache/avro/avro-compiler/1.8.2/avro-compiler-1.8.2.pom
+/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.7.1/avro-ipc-1.7.1.jar
+/usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.7.1/avro-ipc-1.7.1.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.jar
 /usr/share/java/.m2/repository/org/apache/avro/avro-ipc/1.8.2/avro-ipc-1.8.2.pom
+/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.7.1/avro-mapred-1.7.1.jar
+/usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.7.1/avro-mapred-1.7.1.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-hadoop2.jar
 /usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.jar
 /usr/share/java/.m2/repository/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.7.7/avro-maven-plugin-1.7.7.jar
 /usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.7.7/avro-maven-plugin-1.7.7.pom
+/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.8.2/avro-maven-plugin-1.8.2.jar
+/usr/share/java/.m2/repository/org/apache/avro/avro-maven-plugin/1.8.2/avro-maven-plugin-1.8.2.pom
+/usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.1/avro-parent-1.7.1.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.4/avro-parent-1.7.4.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.7.7/avro-parent-1.7.7.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro-parent/1.8.2/avro-parent-1.8.2.pom
+/usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.1/avro-toplevel-1.7.1.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.4/avro-toplevel-1.7.4.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.7.7/avro-toplevel-1.7.7.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro-toplevel/1.8.2/avro-toplevel-1.8.2.pom
@@ -147,3 +228,26 @@ cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/avro/avro/1
 /usr/share/java/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.pom
 /usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2/avro-1.8.2.jar
 /usr/share/java/.m2/repository/org/apache/avro/avro/1.8.2/avro-1.8.2.pom
+
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/mvn-avro/doc_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_c++_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_c_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_csharp_NOTICE
+/usr/share/package-licenses/mvn-avro/lang_java_avro_src_main_resources_META-INF_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_java_guava_src_main_resources_META-INF_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_java_tools_src_main_javadoc_META-INF_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_java_tools_src_main_javadoc_META-INF_NOTICE
+/usr/share/package-licenses/mvn-avro/lang_java_tools_src_main_resources_META-INF_LICENSE.txt
+/usr/share/package-licenses/mvn-avro/lang_java_tools_src_test_resources_META-INF_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_java_tools_src_test_resources_META-INF_NOTICE
+/usr/share/package-licenses/mvn-avro/lang_js_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_js_NOTICE
+/usr/share/package-licenses/mvn-avro/lang_perl_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_php_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_py3_avro_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_py_lib_pyAntTasks-1.3-LICENSE.txt
+/usr/share/package-licenses/mvn-avro/lang_py_lib_simplejson_LICENSE.txt
+/usr/share/package-licenses/mvn-avro/lang_py_src_avro_LICENSE
+/usr/share/package-licenses/mvn-avro/lang_ruby_LICENSE
