@@ -4,7 +4,7 @@
 #
 Name     : mvn-avro
 Version  : 1.8.2
-Release  : 8
+Release  : 9
 URL      : https://github.com/apache/avro/archive/release-1.8.2.tar.gz
 Source0  : https://github.com/apache/avro/archive/release-1.8.2.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/org/apache/avro/avro-ipc/1.7.1/avro-ipc-1.7.1.jar
